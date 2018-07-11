@@ -4,6 +4,7 @@
 .email-heading {
   font-size: 40px;
   line-height: 40px;
+  font-weight: bold;
   color: #2a1e3e;
 }
 
@@ -191,8 +192,8 @@ img.circle-image {
     }
     .list-right {
       float: right;
-      color: #2dad6b;
-      line-height: 10px;
+      color: #E9602C;
+      line-height: 18px;
       font-size: 14px;
       margin-top: 16px;
       margin-right: 8px;
@@ -200,7 +201,7 @@ img.circle-image {
         float: left;
         display: inline-block;
         margin-right: 6px;
-        height: 10px;
+        height: 15px;
       }
     }
   }
@@ -215,5 +216,20 @@ img.circle-image {
     color: #9baabf;
     font-weight: 200;
     margin-bottom: 3px;
+  }
+}
+
+.user-box {
+  margin-left:20px !important;
+  margin-top:5px !important;
+  max-width:500px;
+  @media screen and (max-width:500px) {
+    max-width:320px;
+  }
+  a {
+    color: #6cc69d;
+  }
+  .text {
+    color: #9baabf;
   }
 }
