@@ -1,6 +1,9 @@
 @import 'settings';
 @import 'foundation-emails';
 
+html {
+  background-color: #F8F8FB;
+}
 .email-heading {
   font-size: 40px;
   line-height: 40px;
@@ -15,7 +18,7 @@
   font-weight: 200;
   letter-spacing: -0.5px;
   a {
-    color: #68c79c;
+    color: #2DaD6B;
     font-weight: 200;
   }
 }
@@ -31,6 +34,7 @@
 .text4 {
   color: #2a1e3e;
   font-size: 28px;
+  font-weight: bold;
 }
 
 .text5 {
@@ -65,16 +69,24 @@ table.button1 table td a {
 }
 
 table.button1:hover table td a {
-  color: #6cc69d !important;
-  border: 1px solid #6cc69d;
+  color: #2DaD6B !important;
+  border: 1px solid #2DaD6B;
 }
 
 .footer-link {
-  color: #6cc69d;
+  color: #2DaD6B;
   letter-spacing: 2.5px;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
   margin: 0px 10px;
+  font-weight: bold;
+ font-family: Roboto;
+ font-weight: bold;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: normal;
+ letter-spacing: normal;
+ text-align: left;
 }
 
 img.circle-image {
@@ -91,7 +103,7 @@ img.circle-image {
   color: #2a1e3e;
   letter-spacing: 0.25px;
   a {
-    color: #68c79c;
+    color: #2DaD6B;
   }
 }
 
@@ -105,7 +117,7 @@ img.circle-image {
   width: 100%;
   max-width: 630px;
   text-align: left;
-  color: #75879e;
+  color: #9baabf;
   font-size: 14px;
   height: 20px;
   line-height: 20px;
@@ -122,7 +134,7 @@ img.circle-image {
   .listing-info-time {
     float: right;
     display: inline-block;
-    color: #dee0e7;
+    color: #E3e4e6;
     font-size: 12px;
     margin-top: 3px;
     img {
@@ -189,6 +201,9 @@ img.circle-image {
     padding: 10px;
     .list-left {
       float: left;
+      h3{
+        font-weight: bold;
+      }
     }
     .list-right {
       float: right;
@@ -196,10 +211,13 @@ img.circle-image {
       line-height: 18px;
       font-size: 14px;
       margin-top: 16px;
+      font-weight: bold;
       margin-right: 8px;
+      font-weight: bold;
       img {
         float: left;
         display: inline-block;
+        margin-top: 2px;
         margin-right: 6px;
         height: 15px;
       }
@@ -227,7 +245,19 @@ img.circle-image {
     max-width:320px;
   }
   a {
-    color: #6cc69d;
+    color: #2DaD6B;
+    letter-spacing: 2.5px;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0px 10px;
+    font-weight: bold;
+    font-family: Roboto;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
   }
   .text {
     color: #9baabf;
